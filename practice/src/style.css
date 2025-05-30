@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    
+    --font-primary-font: "Plus Jakarta Sans", sans-serif;
+    --color-primary:#F44335;
+    --color-primary_hover:#ff7166;
+    --color-secondary: #00FF84;
+}
+@layer utilities{
+    .nav_item{
+        @apply text-emerald-950 dark:text-white text-base font-normal leading-normal transition-colors duration-300 hover:text-primary dark:hover:text-secondary;
+    }
+  }
+
+
+

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <title>Tailwind assignment1</title>
+  </head>
+  <body class="w-full relative overflow-x-hidden font-primary-font bg-neutral-50 dark:bg-black">
+  
+                                            <!-- --- Header section--- -->
+    <header class="w-full bg-white border border-b-white/20 dark:bg-black shadow-sm p-4 fixed top-0 left-0 right-0 z-50">
+        
+        <nav class="max-w-[1440px] w-full mx-auto flex items-center justify-between">
+            <a href="/">
+                <img
+                class="w-24 md:w-32 pointer-events-none select-none"
+                src="/logo.svg"
+                alt="">
+            </a>
+
+            <ul class="hidden lg:flex items-center gap-8">
+                <li>
+                    <a class="nav_item" href="#">Home</a>
+                </li>
+
+                <li>
+                    <a class="nav_item" href="#">About Us</a>
+                </li>
+
+                <li>
+                    <a class="nav_item" href="#">Upskill</a>
+                </li>
+
+                <li>
+                    <a class="nav_item" href="#">Contact us</a>
+                </li>
+            </ul>
+
+    <div class="flex items-center gap-6">
+                <div>
+                    <button class="hidden lg:block px-4 py-2.5 bg-primary dark:bg-secondary rounded-lg text-white text-lg font-normal leading-relaxed cursor-pointer transition-all duration-300 hover:bg-indigo-500" type="button">Register Interest</button>
+                </div>
+
+                <button id="switch" type="button" class="size-9 md:size-14 text-center grid place-items-center rounded-full bg-gray-200 dark:bg-secondary cursor-pointer transition-all duration-300 hover:bg-gray-300 dark:hover:bg-indigo-500">
+                    <span>
+                        <i class="ri-moon-line text-xl md:text-3xl text-gray-700 dark:text-white font-light"></i>
+                    </span>
+                </button>
+
+                <button type="button" class="lg:hidden">
+                    <i class="ri-menu-3-fill text-2xl dark:text-white md:text-3xl cursor-pointer"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
