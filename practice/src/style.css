@@ -49,6 +49,9 @@
     .job_title_icon{
         @apply text-lg text-neutral-900 dark:text-white font-bold;
     }
+    .courses_tag{
+        @apply w-40 text-center px-5 py-3 hover:bg-secondary rounded-full outline-1 outline-offset-[-1px] outline-neutral-800 dark:outline-secondary text-slate-800 dark:text-white text-lg font-normal transition-all duration-200 cursor-pointer;
+    }
   }
 
 
