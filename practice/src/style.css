@@ -20,6 +20,17 @@
     .hero_r_text{
         @apply text-slate-800 dark:text-white text-lg font-normal;
     }
+    .check_frame{
+        @apply flex flex-col sm:flex-row items-start sm:items-center justify-start sm:justify-normal gap-2.5;
+    }
+
+    .check_frame_span{
+        @apply size-12 bg-red-200 dark:bg-white rounded-full grid place-items-center text-2xl text-red-500;
+    }
+
+    .check_frame_h2{
+        @apply text-neutral-900 dark:text-white text-lg font-medium hyphens-auto;
+    }
   }
 
 
